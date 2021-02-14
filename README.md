@@ -1,5 +1,5 @@
 # valor-venda
 
 ATENÇÃO!
-Este site pode apresentar bugs (problemas) visuais em celulares e tablets!
-Recomendamos que use computador para acessar o site
+- Este site pode apresentar bugs (problemas) visuais em celulares e tablets!
+- Recomendamos que use computador para acessar o site
