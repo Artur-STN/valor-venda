@@ -1,0 +1,260 @@
+* {
+
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+input {
+
+    background: #003366;
+    color: #ffffff;
+
+    border: 1px #003366 solid;
+
+    font-size: 1.5rem;
+
+    text-align: center;
+
+    width: 200px;
+    height: 45px;
+
+    outline: none;
+
+}
+
+input:hover {
+
+    background: white;
+    color: #003366;
+
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+
+    -webkit-appearance: none;
+
+}
+
+input::placeholder {
+
+    color: #ffffff;
+
+}
+
+input:hover::placeholder {
+
+    color: #003366;
+
+}
+
+input:focus::-webkit-input-placeholder {
+
+    color: transparent;
+
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "titulo"
+                            "valores"
+                            "valores"
+                            "botoes"
+                            "atencao";
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+.title_principal {
+
+    background: #003366;
+    color: white;
+
+    text-shadow: -2px 5px #00171f;
+
+    font-size: 4rem;
+
+    padding: 1rem;
+
+    grid-area: titulo;
+}
+
+.div-valores {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #c1e0ff;
+
+    width: 100vw;
+
+    margin: 0 auto;
+
+    grid-area: valores;
+
+}
+
+.div-valores .div-all-inputs {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas:    "produto embalagem operador"
+                            "lucro loja operador";
+
+    gap: 10px;
+
+    width: 500px;
+
+}
+
+#valor-de-custo {
+
+    grid-area: produto;
+
+}
+
+#input-porcentagem {
+
+    grid-area: lucro;
+
+}
+
+#input-embalagem {
+
+    grid-area: embalagem;
+
+}
+
+#input-loja-virtual {
+
+    grid-area: loja;
+
+}
+
+#operador {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-area: operador;
+
+    font-size: 5rem;
+
+    color: #003366;
+
+}
+
+.div-preco-final {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+
+}
+
+.div-preco-final #p {
+
+    font-size: 3rem;
+
+    color: #003366;
+
+}
+
+.div-calculo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-area: botoes;
+
+    background: #c1e0ff;
+
+}
+
+.div-botoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 700px;
+
+}
+
+button {
+
+    background: #003366;
+    color: white;
+
+    border: 1px solid #003366;
+
+    font-size: 1.6rem;
+
+    width: 200px;
+    height: 50px;
+
+    outline: none;
+
+    cursor: pointer;
+
+    transition: all ease 0.1s;
+
+}
+
+button:hover {
+
+    background: white;
+    color: #003366;
+
+}
+
+.atencao {
+
+    background: #036;
+
+    width: 100vw;
+
+    grid-area: atencao;
+
+}
+
+.atencao h1 {
+
+    font-size: 3rem;
+
+    color: #fff;
+
+    text-shadow: 2px 2px black;
+
+}
+
+.atencao h2 {
+
+    font-size: 2rem;
+
+    color: white;
+
+    text-shadow: 2px 2px black;
+
+}

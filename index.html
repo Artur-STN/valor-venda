@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+
+    <title>Valor Final</title>
+
+</head>
+
+<body>
+
+    <h1 class="title_principal">Valor para Vendas Online</h1>
+
+    <div class="div-valores">
+
+        <div class="div-all-inputs">
+
+            <input type="number" id="valor-de-custo" placeholder="PRODUTO" max="4">
+
+            <input type="number" id="input-porcentagem" placeholder="% DE LUCRO" max="4">
+
+            <input type="number" name="" id="input-embalagem" placeholder="EMBALAGEM" max="4">
+            
+            <input type="number" name="" id="input-loja-virtual" placeholder="LOJA" max="4">
+            
+            <p id="operador">=</p>
+
+        </div>
+
+        <div class="div-preco-final">
+
+            <p id="p" onclick="copiar()">Preço Final</p>
+
+        </div>
+
+    </div>
+
+    <div class="div-calculo">
+
+        <div class="div-botoes">
+
+            <button id="btn-calculo" onclick="limpar()">LIMPAR</button>
+
+            <button id="btn-calculo" onclick="limpar_all()">LIMPAR TUDO</button>
+
+            <button id="btn-calculo" onclick="calcular()">CALCULAR</button>
+
+        </div>
+
+    </div>
+
+    <div class="atencao">
+
+        <h1>ATENÇÃO!</h1>
+
+        <h2>Este site pode apresentar bugs (problemas) visuais em celulares e tablets!</h2>
+
+        <h2>Recomendamos que use computador</h2>
+
+    </div>
+
+</body>
+
+</html>
