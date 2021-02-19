@@ -28,8 +28,8 @@ input {
 
 input:hover {
 
-    background: #003366;
-    color: white;
+    background: rgba(0, 51, 102, 0.1);
+    color: #00171f;
 
 }
 
@@ -42,13 +42,13 @@ input::-webkit-outer-spin-button {
 
 input::placeholder {
 
-    color: #003366;
+    color: #00171f;
 
 }
 
 input:hover::placeholder {
 
-    color: white;
+    color: #00171f;
 
 }
 
