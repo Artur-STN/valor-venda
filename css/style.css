@@ -11,7 +11,7 @@
 input {
 
     background: white;
-    color: #003366;
+    color: #00171f;
 
     border: 1px #003366 solid;
 
@@ -29,7 +29,6 @@ input {
 input:hover {
 
     background: rgba(0, 51, 102, 0.1);
-    color: #00171f;
 
 }
 
