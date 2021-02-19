@@ -10,8 +10,8 @@
 
 input {
 
-    background: #003366;
-    color: #ffffff;
+    background: white;
+    color: #003366;
 
     border: 1px #003366 solid;
 
@@ -28,8 +28,8 @@ input {
 
 input:hover {
 
-    background: white;
-    color: #003366;
+    background: #003366;
+    color: white;
 
 }
 
@@ -42,13 +42,13 @@ input::-webkit-outer-spin-button {
 
 input::placeholder {
 
-    color: #ffffff;
+    color: #003366;
 
 }
 
 input:hover::placeholder {
 
-    color: #003366;
+    color: white;
 
 }
 
@@ -204,8 +204,8 @@ body {
 
 button {
 
-    background: #003366;
-    color: white;
+    background: white;
+    color: #003366;
 
     border: 1px solid #003366;
 
@@ -224,8 +224,8 @@ button {
 
 button:hover {
 
-    background: white;
-    color: #003366;
+    background: #003366;
+    color: white;
 
 }
 
