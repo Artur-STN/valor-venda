@@ -9,7 +9,12 @@ function calcular() {
 
     let preco = (((Number(produto.value) * ((Number(lucro.value) / 100) + 1)) + Number(embalagem.value)) * ((Number(porcentagem_loja_virtual.value) / 100) + 1))
 
-    p.innerHTML = `R$ ${preco.toFixed(1) + '9'}`
+    function ajuste(nr, casas) {
+        const og = Math.pow(10, casas)
+        return Math.floor(nr * og) / og;
+      }
+
+    p.innerHTML = `R$ ${ajuste(preco, 1) + '9'}`
 
 }
 
