@@ -234,6 +234,8 @@ button:hover {
     background: #036;
 
     width: 100vw;
+    
+    padding: 2rem 0;
 
     grid-area: atencao;
 
