@@ -8,8 +8,6 @@ function calcular() {
     let p = document.getElementById('p')
 
     let preco = (((Number(produto.value) * ((Number(lucro.value) / 100) + 1)) + Number(embalagem.value)) * ((Number(porcentagem_loja_virtual.value) / 100) + 1))
-
-    p.replace(".",",")
     
     p.innerHTML = `R$ ${preco.toFixed(1) + '9'}`
 
